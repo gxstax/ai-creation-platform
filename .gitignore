@@ -1,0 +1,27 @@
+# macOS
+.DS_Store
+
+# IDE
+.idea/
+*.iml
+.vscode/
+*.swp
+
+# Env & secrets (API keys, DB passwords)
+.env
+.env.*
+!.env.example
+
+# Backend (Java / Maven)
+backend/target/
+*.class
+*.log
+logs/
+
+# Frontend (Node)
+frontend/node_modules/
+frontend/dist/
+frontend/coverage/
+
+# Docker / K8s local
+kubeconfig
